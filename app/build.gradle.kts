@@ -70,4 +70,8 @@ dependencies {
     androidTestImplementation(libs.androidx.test.ext.junit.ktx)
     androidTestImplementation(libs.androidx.test.rules)
     androidTestImplementation(libs.espresso.core)
+
+    implementation("com.goterl:lazysodium-android:5.2.0")          // Argon2id + AES libs
+    implementation("net.zetetic:android-database-sqlcipher:4.5.4") // Encrypted SQLite
+    implementation("androidx.biometric:biometric:1.1.0")           // Fingerprint / face unlock
 }
